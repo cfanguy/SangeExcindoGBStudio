@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3d846a76-256f-465d-bcbf-c1f7b0c98f02",
+  "name": "bar_big",
+  "symbol": "bg_bar_big",
+  "width": 30,
+  "height": 27,
+  "imageWidth": 240,
+  "imageHeight": 216,
+  "filename": "bar_big.png",
+  "tileColors": ""
+}

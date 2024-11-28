@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "6b3b988b-b7c8-4070-a51c-53f1af6ba945",
+  "_index": 0,
+  "name": "Bar",
+  "backgroundId": "3d846a76-256f-465d-bcbf-c1f7b0c98f02",
+  "tilesetId": "",
+  "width": 30,
+  "height": 27,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f1e+0046+0f8+005+0f2+00f+0f8+005+0f2+009+0f2+0011+0f2+009+0f2+0011+0f2+009+0f2+001c+0f2+002e+0f2+001c+0f2+001c+0f2+00a+0f2+0010+0f2+00a+0f2+001c+0f2+001c+0f2+00f+0f2+001c+0f2+001c+0f2+001c+0f2+00b+0f2+001c+0f2+001c+0f2+00e+0f2+00c+0f2+00e+0f2+001c+0f2+001c+0f2+0026+0fd+04!002+08!0fd+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 83,
+  "y": 91,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
