@@ -30,13 +30,13 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "7f6467eb-fa9e-4cca-a974-30d52cd6a9de"
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
             },
-            "id": "9df2735e-0d35-4afe-a102-4623665f55ff"
+            "id": "f0b193ed-2368-4091-90ea-5bc9a905342e"
           }
         ]
       },
-      "id": "9292f4a6-683f-48ef-af9a-3bc658fb65f4"
+      "id": "01457e99-bc73-4df3-ac1d-db54cbfa83c8"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -84,6 +84,37 @@
                     }
                   },
                   "id": "106b68fe-f02b-44dc-850f-d5aa93acece1"
+                },
+                {
+                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b"
+                    ]
+                  },
+                  "id": "3d14efe8-5a71-483b-8b2e-0052614b97b2"
+                },
+                {
+                  "command": "EVENT_SET_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b"
+                    ],
+                    "override": true,
+                    "__scriptTabs": "press"
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "7f6467eb-fa9e-4cca-a974-30d52cd6a9de"
+                        },
+                        "id": "9cb1b70d-8cfa-4875-af1a-120f0704cfe4"
+                      }
+                    ]
+                  },
+                  "id": "01aa1daa-e2ae-47e8-bd9e-a117c27fa564"
                 }
               ],
               "false": [
@@ -93,6 +124,37 @@
                     "spriteSheetId": "9afbf1f8-e1c4-4fdc-8c63-653619f93af7"
                   },
                   "id": "567d5cea-323b-4cbe-8fc6-f188ae511b06"
+                },
+                {
+                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b"
+                    ]
+                  },
+                  "id": "4910f267-a1c3-4209-8a58-0e31e5e49f04"
+                },
+                {
+                  "command": "EVENT_SET_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b"
+                    ],
+                    "override": true,
+                    "__scriptTabs": "press"
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+                        },
+                        "id": "9df2735e-0d35-4afe-a102-4623665f55ff"
+                      }
+                    ]
+                  },
+                  "id": "9292f4a6-683f-48ef-af9a-3bc658fb65f4"
                 },
                 {
                   "command": "EVENT_SET_VALUE",

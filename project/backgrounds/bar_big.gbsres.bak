@@ -8,5 +8,6 @@
   "imageWidth": 240,
   "imageHeight": 216,
   "filename": "bar_big.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -1,28 +1,28 @@
 {
   "_resourceType": "sprite",
-  "id": "c7723917-c02a-4b0c-9862-5bd31aa3c016",
-  "name": "blaster_shot",
-  "symbol": "sprite_blaster_shot",
+  "id": "93506fa4-0713-4ff3-96e3-0ef2f8661570",
+  "name": "sword_right",
+  "symbol": "sprite_sword_right",
   "numFrames": 1,
-  "filename": "blaster_shot.png",
-  "checksum": "57e4a60ac23c0a9bc7f9dc798f9e08e5796b910e",
+  "filename": "sword_right.png",
+  "checksum": "07f3a4ffcef29e16475f020b9a199b93007f26d4",
   "width": 16,
   "height": 16,
   "states": [
     {
-      "id": "954508b9-f413-4582-bf29-1bef3e4e6aa3",
+      "id": "e0565107-f1d2-4c77-bd5c-122c543f3803",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "37cc7834-b03d-42d2-b2a1-d154a2e5151e",
+          "id": "912c81b3-52c8-44ba-8446-085fa58a5c3e",
           "frames": [
             {
-              "id": "70d8f3ed-aea0-4464-9ef7-2663a7e43aed",
+              "id": "57dfa626-883b-4224-afe3-c42f70ae1e9f",
               "tiles": [
                 {
-                  "id": "0edd0504-9067-4f80-b897-68ae23392606",
+                  "id": "b67cfcb3-6206-487d-90ee-61bd25958ba3",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -35,7 +35,7 @@
                   "priority": false
                 },
                 {
-                  "id": "b6e040ae-94c5-4489-adf2-8fba082c3965",
+                  "id": "df69c4a2-a246-455a-9d72-c6f241486584",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -52,64 +52,64 @@
           ]
         },
         {
-          "id": "25f0f2ae-8c47-41cd-bb93-e557a2ec2491",
+          "id": "7778a371-022c-4095-a79b-b743cc48c112",
           "frames": [
             {
-              "id": "90b1852b-7e58-46c0-9661-f85bd3a275ff",
+              "id": "ca3f05fd-1fe8-4786-9f3f-3f970954fdd1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "03099e7c-c87f-479f-bd47-88e3969a9a34",
+          "id": "76929000-dc27-48cb-a453-3ee18151f6b1",
           "frames": [
             {
-              "id": "f9aacafe-0382-4de5-bb03-25cb169f12e3",
+              "id": "6af34f05-fe91-4d92-90e1-515b3aeee517",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c4ff4f3b-7e4e-46b5-a2b5-328ded758169",
+          "id": "3aab3f6d-1f0b-4332-83df-6a0df8d12c8a",
           "frames": [
             {
-              "id": "63d2cb2b-b473-4109-a00b-6aa01140c004",
+              "id": "196d2720-8518-4001-8cf2-c8287274f6da",
               "tiles": []
             }
           ]
         },
         {
-          "id": "5ed50ab0-13bf-43a5-be62-f01bf12deedc",
+          "id": "439a9af7-067f-448c-8065-379271ed1347",
           "frames": [
             {
-              "id": "31f50bf5-42c0-447b-8b90-e3cf80398fc5",
+              "id": "cb8741cc-f0d7-4bce-8a52-461062f16f44",
               "tiles": []
             }
           ]
         },
         {
-          "id": "0c3064d0-cadf-4bcf-ab96-41c6f9fb22af",
+          "id": "bda97a5c-d393-4af4-bc74-0cf39bd5b772",
           "frames": [
             {
-              "id": "37acc206-0830-4a77-a8ba-3956d9851387",
+              "id": "5ed74755-6dd1-497f-b527-e748764fe76f",
               "tiles": []
             }
           ]
         },
         {
-          "id": "fe41b891-57e1-46d0-8a1d-42f49319e688",
+          "id": "eac29828-3166-4bec-ae5b-58287575c744",
           "frames": [
             {
-              "id": "13b22bf2-8391-44a0-a06e-ce3ff09b3206",
+              "id": "ea6e68d2-9c21-4957-bc49-a7e4424b7f03",
               "tiles": []
             }
           ]
         },
         {
-          "id": "bf14acd1-81d4-4d66-b448-3b748bd38f4c",
+          "id": "5b6dae41-c232-4ed2-9af1-7bc0f309a82a",
           "frames": [
             {
-              "id": "fe37ef77-4ac8-4691-a7ce-da9494e94906",
+              "id": "a4fceba1-e9f7-42c1-868d-9a38ad531a5c",
               "tiles": []
             }
           ]
@@ -117,7 +117,7 @@
       ]
     }
   ],
-  "numTiles": 1,
+  "numTiles": 2,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,
