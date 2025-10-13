@@ -1,0 +1,70 @@
+{
+  "_resourceType": "actor",
+  "id": "3197838e-b95d-4ab6-8e4d-0be061e9418a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e37907e3-0e43-4523-b6da-d1c42d09e1ed",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_3",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You can take your\nhand off those\nweapons! We can\ngive you a ride\nif you do us a\nfavor."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 9,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 7,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8d67b416-6319-49a4-8488-90bf06f8086c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e875e242-ebfb-437e-a692-755b0321c7b4",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "bf3b0df3-fb87-4d2e-8d40-f98c630557b1"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 4,
+  "_index": 0
+}

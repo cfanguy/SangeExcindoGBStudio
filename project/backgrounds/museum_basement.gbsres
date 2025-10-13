@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "daed4b8b-1109-40be-9857-4f5dec101d10",
+  "name": "museum_basement",
+  "symbol": "bg_museum_basement",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "museum_basement.png",
+  "tileColors": "0042+022+003+022+00d+022+003+022+005d+022+003+022+00d+022+003+022+0049+022+003+022+00d+022+003+022+002f+",
+  "autoColor": false
+}

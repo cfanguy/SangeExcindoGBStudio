@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "Player X",
-      "symbol": "var_player_x_0"
+      "symbol": "var_player_x"
     },
     {
       "id": "1",
@@ -13,8 +13,8 @@
     },
     {
       "id": "2",
-      "name": "EnemiesDefeated",
-      "symbol": "var_enemiesdefeated"
+      "name": "HasSword",
+      "symbol": "var_hassword"
     },
     {
       "id": "3",

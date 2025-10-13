@@ -1,0 +1,37 @@
+{
+  "_resourceType": "scene",
+  "id": "a85a5071-c46b-468a-8f30-a87d7f44ac05",
+  "_index": 10,
+  "name": "Museum to Mountains",
+  "backgroundId": "a8f56717-7cf4-4e78-a94f-639b36ba927c",
+  "tilesetId": "",
+  "width": 76,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00558+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 344,
+  "y": 392,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "parallax": [
+    {
+      "height": 9,
+      "speed": 2
+    },
+    {
+      "height": 4,
+      "speed": 1
+    },
+    {
+      "height": 0,
+      "speed": 0
+    }
+  ],
+  "playerSpriteSheetId": "823a49b8-100c-4330-9deb-da26dafd81b6"
+}

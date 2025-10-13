@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bc7b1513-86b3-4e7a-8733-1fb015347bdc",
+  "name": "airship1",
+  "symbol": "bg_airship1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "airship1.png",
+  "tileColors": "014b+005+01f+005+01f+005+01f+005+0110+004+01c8+",
+  "autoColor": false
+}

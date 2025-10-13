@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "ddcedb56-7016-4f64-9205-9f60b775c5e8",
+  "_index": 16,
+  "name": "Airship Commons",
+  "backgroundId": "a7101a58-18d0-4c07-b7bd-a845c4f5bb59",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 1208,
+  "y": 240,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

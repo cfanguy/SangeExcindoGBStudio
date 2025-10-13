@@ -1,0 +1,78 @@
+{
+  "_resourceType": "scene",
+  "id": "5c5969d7-1eab-400d-be2a-5ffa94b6a93f",
+  "_index": 14,
+  "name": "Cutscene 3",
+  "backgroundId": "d89ec276-cd27-427f-8b8d-8c89bd534f10",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00b1+103+0011+103+0011+103+0011+103+0011+103+0011+103+0f50+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 1008,
+  "y": 416,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "13457d99-c962-4d76-ba6c-3a4c0c21d8ef"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "9d347df9-7704-4155-8062-c804c4709df9"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "6ca6f45d-0b0d-4b38-9ef0-8425db75d587"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Come Aboard!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 9,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 9,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6c194226-853f-401b-a9d0-b790c17b155f"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a3198cf0-7422-4909-b51e-a34fbb5cc593"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "823a49b8-100c-4330-9deb-da26dafd81b6"
+}

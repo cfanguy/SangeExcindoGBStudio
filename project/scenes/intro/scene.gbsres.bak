@@ -39,12 +39,14 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
-        "speedIn": 1,
-        "speedOut": 1,
+        "speedIn": 0,
+        "speedOut": 0,
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__comment": true,
+        "__collapse": true
       },
       "id": "8b365579-7644-49d7-b5ce-4e4b1b423cd8"
     },
@@ -64,11 +66,11 @@
         "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
         "x": {
           "type": "number",
-          "value": 34
+          "value": 6
         },
         "y": {
           "type": "number",
-          "value": 43
+          "value": 24
         },
         "direction": "",
         "fadeSpeed": "2"

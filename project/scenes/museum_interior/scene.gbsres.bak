@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "403ed06d-cad4-4028-9065-fc97a2b38916",
+  "_index": 9,
+  "name": "Museum Interior",
+  "backgroundId": "14398600-176d-499d-978f-eed1db2a4820",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0015+0f12+002+0f12+002+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f7+004+0f7+008+0f!004+0f!00e+0f!004+0f!007+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 60,
+  "y": 200,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "94616f44-cb5b-43bf-86a9-3a2669fe8006"
+}

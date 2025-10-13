@@ -1,0 +1,124 @@
+{
+  "_resourceType": "scene",
+  "id": "3db37dd7-e8c3-447a-8408-431252f3d401",
+  "_index": 1,
+  "type": "ADVENTURE",
+  "name": "Excindo",
+  "symbol": "scene_5",
+  "x": 512,
+  "y": 30,
+  "width": 27,
+  "height": 27,
+  "backgroundId": "8c9d6adb-8077-4010-8842-4fb87609c9d3",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "036a200b-ea33-4c38-acc1-8ee0baaa70e6",
+    "183e89db-15a2-4fc1-924e-e4c36d965593"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0776719e-2848-436b-8ca3-c744e79e3795",
+        "__comment": true
+      },
+      "id": "c39216ce-b053-461e-84b7-5965f16184c2"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "883ae0af-2751-4d18-9b5a-ee6d6aa19c0f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "2"
+          }
+        },
+        "__collapseElse": false,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "03f187a3-7fc8-40b0-bca6-cdeffbc59d42"
+            },
+            "id": "e622b7a9-ea4c-4fc8-a375-1ffac84add72"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "9efb2b11-31f6-4a9b-9c46-844e3933685d"
+            },
+            "id": "95de47cf-3f59-44ff-bd8b-6e3fbb64c561"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "03f187a3-7fc8-40b0-bca6-cdeffbc59d42"
+            },
+            "id": "20d6711a-487d-45a3-b1c4-33c2d77cbcf7"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "9efb2b11-31f6-4a9b-9c46-844e3933685d"
+            },
+            "id": "88620f47-4abe-4c73-aa6f-60485cbeda7b"
+          }
+        ],
+        "false": []
+      },
+      "id": "98109fb6-1cbb-4d3b-8b97-a030a48c0195"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "a2fefb57-4307-4c64-bea9-64ed7afc3955"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6bf3c7fb-091e-45b3-9535-9e8c2e626736"
+      },
+      "id": "9bf215ae-eaf6-4f0d-a58e-abf403c94b56"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "923a6a2b-ebea-4c42-beae-2db1fef29ac2",
+        "__comment": true
+      },
+      "id": "fd00615f-deb4-4963-855d-2a91e591bded"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f1c+0019+0f2+0019+0f2+0019+0f2+0019+0f2+0019+0f2+008+0f3+009+0f3+002+0f2+008+0f3+009+0f3+002+0f2+008+0f3+009+0f3+002+0f2+0019+0f2+0019+0f2+0019+0f2+00b+0f3+00b+0f2+00b+0f3+00b+0f2+0019+0f2+0019+0f2+0019+0f2+0019+0f2+0019+0f2+0019+0f2+0019+0f2+002+0f3+009+0f3+008+0f2+002+0f3+009+0f3+008+0f2+002+0f3+009+0f3+008+0f2+0019+0f2+0019+0f1c+"
+}

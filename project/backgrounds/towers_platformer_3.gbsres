@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "737e8ab5-4d45-4a40-a1c5-85c7abc47403",
+  "name": "towers_platformer_3",
+  "symbol": "bg_towers_platformer_3",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "towers_platformer_3.png",
+  "tileColors": "01f7+043+012+042+016a+",
+  "autoColor": false
+}

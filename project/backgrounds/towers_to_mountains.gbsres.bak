@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a8f56717-7cf4-4e78-a94f-639b36ba927c",
+  "name": "towers_to_mountains",
+  "symbol": "bg_towers_to_mountains",
+  "width": 76,
+  "height": 18,
+  "imageWidth": 608,
+  "imageHeight": 144,
+  "filename": "towers_to_mountains.png",
+  "tileColors": "",
+  "autoColor": false
+}

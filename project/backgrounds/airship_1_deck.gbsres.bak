@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2fc348e6-106a-4587-9484-c2955f02a8a1",
+  "name": "airship_1_deck",
+  "symbol": "bg_airship_1_deck",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "airship_1_deck.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "cb55a83b-fbde-4cce-9313-207ef909b62f",
+  "name": "airship_3_engine",
+  "symbol": "bg_airship_3_engine",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "airship_3_engine.png",
+  "tileColors": "",
+  "autoColor": false
+}

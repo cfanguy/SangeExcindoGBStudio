@@ -1,0 +1,74 @@
+{
+  "_resourceType": "trigger",
+  "id": "c75c5411-2f50-470e-87ab-c86acedeb22b",
+  "name": "",
+  "prefabId": "",
+  "x": 9,
+  "y": 16,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6f064aff-6f45-445f-8f60-db274a2515d5",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            },
+            "id": "a37bf5a2-a96f-4c99-95c5-a4375efd31fa"
+          }
+        ],
+        "false": []
+      },
+      "id": "137ac673-602f-4b6c-a004-0a29d6cf7304"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I must go get the\nsword."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "793d88b1-bfd1-41ef-b45d-11a57bf6bd27"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

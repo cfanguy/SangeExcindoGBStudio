@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "14398600-176d-499d-978f-eed1db2a4820",
+  "name": "museum_interior",
+  "symbol": "bg_museum_interior",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "museum_interior.png",
+  "tileColors": ""
+}

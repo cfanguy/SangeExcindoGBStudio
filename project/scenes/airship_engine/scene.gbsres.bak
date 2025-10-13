@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "008b9103-1e81-40ba-a3b4-ad5caa9a5795",
+  "_index": 17,
+  "name": "Airship Engine",
+  "backgroundId": "cb55a83b-fbde-4cce-9313-207ef909b62f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 1208,
+  "y": 416,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

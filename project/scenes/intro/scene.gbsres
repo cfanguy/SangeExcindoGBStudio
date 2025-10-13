@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "300974fe-5310-45c3-8967-0ac6be33a705",
-  "_index": 12,
+  "_index": 7,
   "name": "Intro",
   "backgroundId": "deb4002c-8dd5-4f8f-8fb2-8058ff415af2",
   "tilesetId": "",
@@ -45,7 +45,8 @@
         "closeButton": "any",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__comment": true
+        "__comment": true,
+        "__collapse": true
       },
       "id": "8b365579-7644-49d7-b5ce-4e4b1b423cd8"
     },
@@ -65,11 +66,11 @@
         "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
         "x": {
           "type": "number",
-          "value": 34
+          "value": 6
         },
         "y": {
           "type": "number",
-          "value": 43
+          "value": 24
         },
         "direction": "",
         "fadeSpeed": "2"
