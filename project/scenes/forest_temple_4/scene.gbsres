@@ -1,0 +1,154 @@
+{
+  "_resourceType": "scene",
+  "id": "c466a100-7e92-4090-996c-2696a029087d",
+  "_index": 10,
+  "name": "Forest Temple 4",
+  "backgroundId": "9bcfe612-5ead-44dd-bbda-251def468d2d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0011+0f3+0011+0f3+0011+0f3+0011+0f3+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f2a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 488,
+  "y": 576,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "b2590f89-6a54-4e05-a2ed-63875f333652"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8f6cd278-2154-4cea-b4a5-f0e91d4402d6",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "39f0a1e1-8776-4691-b9f5-ce1c67abe9b2"
+          }
+        ]
+      },
+      "id": "49fe6c4c-bfbc-4577-b82e-096ca7f41db9"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "a5fc5c2e-a9a9-458b-94a5-4d9c8c5989d2"
+            },
+            "id": "d276fdd2-8e08-45f6-a4a1-e24b01e7457c"
+          }
+        ]
+      },
+      "id": "0502401c-297d-4e50-873a-af33380eca79"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "How did you get\npast my minions?",
+          "After dealing with\nyou, I'll finish",
+          "that town!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5e105601-c8d2-4d1a-af22-73d70e1f8d85"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "cb3316d6-5f57-4cd8-96ac-2b132f3d4d61"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "HUD",
+        "__comment": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0f65ccd9-61f4-4595-b6d0-94bb148490e5"
+            },
+            "id": "f019f4c8-39a6-4709-af95-e139876b9469"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "aa54001d-2fdf-432a-89e8-4afc8cb4cf1e"
+            },
+            "id": "10b79fba-dd24-4141-b374-01af800b5ab5"
+          }
+        ]
+      },
+      "id": "2a2bffe9-05fc-4f45-8243-003677b05958"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0776719e-2848-436b-8ca3-c744e79e3795"
+      },
+      "id": "30111ccc-abea-4b55-a524-151bac5bf539"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

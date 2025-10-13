@@ -1,0 +1,75 @@
+{
+  "_resourceType": "scene",
+  "id": "300974fe-5310-45c3-8967-0ac6be33a705",
+  "_index": 13,
+  "name": "Intro",
+  "backgroundId": "deb4002c-8dd5-4f8f-8fb2-8058ff415af2",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 288,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Sange wakes up\nafter being\nteleported to a\nstrange place. He\nmust find out where\nhe is and get back to\nthe crew of the Nilock.",
+        "x": 1,
+        "y": 1,
+        "location": "background"
+      },
+      "id": "d5953e33-af22-44ab-bf8b-ed583b5a3d86"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "44f65f9f-11dd-4123-a489-4f8e8211bcfe"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "c546ef3e-5314-43d7-a561-237524a6913b"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 10,
+        "frames": 30
+      },
+      "id": "5828d872-37da-406a-a863-253ef2c8cc6d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
+        "x": {
+          "type": "number",
+          "value": 34
+        },
+        "y": {
+          "type": "number",
+          "value": 43
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "dc9e1a6b-c8d8-4560-aafd-f4acfdd17716"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

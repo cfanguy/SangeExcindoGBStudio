@@ -1,0 +1,55 @@
+{
+  "_resourceType": "script",
+  "id": "d894d68d-4e47-420d-b6db-20c75905a84b",
+  "name": "Chase Player",
+  "symbol": "script_5",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 4,
+        "units": "frames",
+        "__collapse": false
+      },
+      "id": "1c52a51d-b15b-4a14-87a2-6728e077f24d"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "player",
+          "property": "ypos"
+        },
+        "moveType": "diagonal",
+        "useCollisions": false
+      },
+      "id": "1aa3a69a-5a07-47ec-b392-b5857f534ff8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 4,
+        "units": "frames",
+        "__collapse": false
+      },
+      "id": "26585f2c-c96b-4dc0-b309-38e1ab82e6ca"
+    }
+  ]
+}

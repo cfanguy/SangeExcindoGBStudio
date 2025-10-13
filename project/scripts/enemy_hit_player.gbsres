@@ -1,0 +1,153 @@
+{
+  "_resourceType": "script",
+  "id": "31d98262-1cfe-4864-afcb-7f61f5e79e37",
+  "name": "Enemy Hit Player",
+  "symbol": "script_3",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor B"
+    }
+  },
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": false
+            },
+            "id": "7c203215-310c-4d9a-a44b-311a3e92229c"
+          },
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "3",
+              "__collapse": true
+            },
+            "id": "5a503eee-9620-45bf-8e5a-4a960d1d23f2"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "97ecd9cb-51bb-4fa5-b49f-70eb41407ffb",
+              "priority": "low",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "dd1fe1dc-14fc-4bb4-a732-af0319209791"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "111511ba-4a91-4b9c-97b9-3be92ca2992c",
+              "$actor[0]$": "1",
+              "__collapse": true
+            },
+            "id": "586f1ae0-fb94-413d-ab9c-139b7f733553"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "5ef63eb3-47d0-40c8-8994-607b723b007c",
+              "__collapse": true
+            },
+            "id": "08b258f2-2bd7-4100-8eed-10489b4ea57e"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "0e711d20-4284-4dc2-83ae-a5d0c2665894"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "823a49b8-100c-4330-9deb-da26dafd81b6",
+              "__collapse": true
+            },
+            "id": "272cea6c-c366-4b58-ab0f-4eefa7bc8af2"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.8,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "cf8f8a6b-9bda-4e8e-93db-6f9e4178d6bd"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "3a96daa9-4f14-48f5-b519-4a428209adf5"
+          },
+          {
+            "command": "EVENT_STOP",
+            "args": {},
+            "id": "578d4043-c582-4522-8bfc-905556036b7d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "cf86b854-78a1-493d-bf7a-3c9c75d3e664"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "31bb9d68-1a27-4bf9-abd9-c0ef8dc852ef"
+          },
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "0"
+            },
+            "id": "af4f323f-3c65-4b5e-b97e-458cb19e4085"
+          }
+        ]
+      },
+      "id": "b59ba660-6d17-4267-8586-a94c6f484caa"
+    }
+  ]
+}

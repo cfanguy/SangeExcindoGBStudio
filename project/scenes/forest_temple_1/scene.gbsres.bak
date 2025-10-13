@@ -1,0 +1,127 @@
+{
+  "_resourceType": "scene",
+  "id": "56e09ddd-4b80-4ad6-9606-58b262c022ac",
+  "_index": 7,
+  "name": "Forest Temple 1",
+  "backgroundId": "2b064c0b-a78a-42c1-9f49-1ad7cae55382",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fa+004+0f10+004+0f8+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 1064,
+  "y": 576,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "971533fc-da4c-4cf5-b760-bda38dc03d46"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8f6cd278-2154-4cea-b4a5-f0e91d4402d6",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ac775204-b674-4152-9d8f-80b91ef7c8a2"
+          }
+        ]
+      },
+      "id": "ff4d4888-b89b-4e25-a3ed-061c22636659"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0f65ccd9-61f4-4595-b6d0-94bb148490e5"
+            },
+            "id": "3c9da274-b656-43c2-ba18-d44289c15416"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "aa54001d-2fdf-432a-89e8-4afc8cb4cf1e",
+              "__comment": false
+            },
+            "id": "5e5c6a5f-8492-4dde-8869-b478215e76e5"
+          }
+        ]
+      },
+      "id": "c311359f-3d41-45eb-8e3d-9644495c883e"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+            },
+            "id": "354a2741-1df6-453f-a37e-2e24796d47ac"
+          }
+        ]
+      },
+      "id": "4686790f-5dd3-4072-8407-ede5368a6ad5"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "e4e3a09a-eca3-4437-afb7-fb84e3afb84b"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0776719e-2848-436b-8ca3-c744e79e3795"
+      },
+      "id": "9c9ebb75-a7c3-4616-a3b6-c8064cc8b77a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}

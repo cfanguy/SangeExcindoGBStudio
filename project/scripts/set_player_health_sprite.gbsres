@@ -1,0 +1,99 @@
+{
+  "_resourceType": "script",
+  "id": "111511ba-4a91-4b9c-97b9-3be92ca2992c",
+  "name": "Set Player Health Sprite",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0f65ccd9-61f4-4595-b6d0-94bb148490e5"
+            },
+            "id": "6b267f7b-dec1-4a10-b263-d4269e960735"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "aa54001d-2fdf-432a-89e8-4afc8cb4cf1e",
+              "__collapse": false
+            },
+            "id": "31f01585-e2fb-4aa7-8fce-1bfdba39e43a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "c22714a8-d38e-4ad8-bdde-fbf240a599f7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Game Over!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "93fb59b1-784e-43ac-8676-4bf7a4030ead"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b596e974-84ee-422b-a66d-d59863d2516c",
+              "x": {
+                "type": "number",
+                "value": 35
+              },
+              "y": {
+                "type": "number",
+                "value": 43
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "3b56776d-9d33-4417-b48b-4f663dcfc510"
+          }
+        ]
+      },
+      "id": "ccc30fc9-7ceb-413a-bf60-96ab23017a95"
+    }
+  ]
+}

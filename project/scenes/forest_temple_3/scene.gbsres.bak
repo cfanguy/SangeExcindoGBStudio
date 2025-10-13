@@ -1,0 +1,116 @@
+{
+  "_resourceType": "scene",
+  "id": "0aa8fc9d-b6fb-4d2c-ab1d-9b53f34ceb1c",
+  "_index": 9,
+  "name": "Forest Temple 3",
+  "backgroundId": "36b72df8-8919-4f60-a27f-93714f2dbf2c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f6a+008+0fc+008+0f6+0013+0f!0013+0f!0013+0f!0013+0f7+008+0fc+008+0f6a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 680,
+  "y": 576,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "b2a59c61-d9fc-423c-bab6-58b78790b2dd"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8f6cd278-2154-4cea-b4a5-f0e91d4402d6",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a9e16877-b723-4c66-b69e-a554ebf9c85c"
+          }
+        ]
+      },
+      "id": "0dbef9c0-5870-4784-bfa8-d97a6076b1d6"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+            },
+            "id": "6df24807-bea4-43f4-8252-e369aad2c5de"
+          }
+        ]
+      },
+      "id": "9b86d478-56e8-44a3-8739-e648ad52c864"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "HUD",
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "0f65ccd9-61f4-4595-b6d0-94bb148490e5"
+            },
+            "id": "376111ec-9d9c-4876-ae05-7a04994679cf"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "aa54001d-2fdf-432a-89e8-4afc8cb4cf1e"
+            },
+            "id": "6fe544dd-1b22-4f12-8de6-1062967798f6"
+          }
+        ]
+      },
+      "id": "0cf4fdbb-e9ed-4eda-9314-6a96dce946c3"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0776719e-2848-436b-8ca3-c744e79e3795"
+      },
+      "id": "05b2dd7d-3f3f-4d51-8e46-43183ae427c7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

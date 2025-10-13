@@ -21,7 +21,7 @@
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "spriteSheetId": "c7723917-c02a-4b0c-9862-5bd31aa3c016",
+              "spriteSheetId": "ea97ee66-6f04-4468-b460-8b9caabb55e4",
               "spriteStateId": "",
               "actorId": "$self$",
               "x": 0,
@@ -32,7 +32,7 @@
               "angle": 0,
               "angleVariable": "V0",
               "targetActorId": "$self$",
-              "initialOffset": 3,
+              "initialOffset": 0,
               "speed": 3,
               "animSpeed": 15,
               "lifeTime": 1,
@@ -44,8 +44,7 @@
                 "1",
                 "2"
               ],
-              "__collapse": false,
-              "__section": "projectile"
+              "__section": "source"
             },
             "id": "84384e0c-e3c8-420f-a67b-ead555b4c0c6"
           }
