@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "56e09ddd-4b80-4ad6-9606-58b262c022ac",
-  "_index": 7,
+  "_index": 6,
   "name": "Forest Temple 1",
   "backgroundId": "2b064c0b-a78a-42c1-9f49-1ad7cae55382",
   "tilesetId": "",
@@ -16,43 +16,6 @@
   "x": 1064,
   "y": 576,
   "script": [
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "start"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SCENE_PUSH_STATE",
-            "args": {},
-            "id": "971533fc-da4c-4cf5-b760-bda38dc03d46"
-          },
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "8f6cd278-2154-4cea-b4a5-f0e91d4402d6",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "ac775204-b674-4152-9d8f-80b91ef7c8a2"
-          }
-        ]
-      },
-      "id": "ff4d4888-b89b-4e25-a3ed-061c22636659"
-    },
     {
       "command": "EVENT_GROUP",
       "args": {

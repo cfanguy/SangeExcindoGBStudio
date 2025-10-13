@@ -8,25 +8,14 @@
   "symbol": "script_12",
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "7",
-        "value": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "31ec4df0-0821-4f82-b538-1d2d7255b475"
-    },
-    {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "7",
+        "variable": "6",
         "choices": 2,
         "__collapseCase0": false,
-        "value0": 0,
+        "value0": 1,
         "__collapseCase1": false,
-        "value1": 1,
+        "value1": 2,
         "__collapseCase2": false,
         "value2": 3,
         "__collapseCase3": false,

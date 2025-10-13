@@ -17,43 +17,6 @@
   "y": 576,
   "script": [
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "start"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SCENE_PUSH_STATE",
-            "args": {},
-            "id": "971533fc-da4c-4cf5-b760-bda38dc03d46"
-          },
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "8f6cd278-2154-4cea-b4a5-f0e91d4402d6",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "ac775204-b674-4152-9d8f-80b91ef7c8a2"
-          }
-        ]
-      },
-      "id": "ff4d4888-b89b-4e25-a3ed-061c22636659"
-    },
-    {
       "command": "EVENT_GROUP",
       "args": {
         "__label": "HUD"
@@ -94,7 +57,7 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+              "customEventId": "a5fc5c2e-a9a9-458b-94a5-4d9c8c5989d2"
             },
             "id": "354a2741-1df6-453f-a37e-2e24796d47ac"
           }

@@ -102,7 +102,11 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a"
+        "customEventId": "26dd3078-2ff4-4cbf-a590-30fbd077ae6a",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        }
       },
       "id": "042a655e-bcad-4dee-82ab-105fa76e3e77"
     }

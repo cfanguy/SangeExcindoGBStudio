@@ -28,16 +28,11 @@
     },
     {
       "id": "5",
-      "name": "Boss HP",
-      "symbol": "var_boss_hp"
-    },
-    {
-      "id": "6",
       "name": "Player Direction",
       "symbol": "var_player_direction"
     },
     {
-      "id": "7",
+      "id": "6",
       "name": "CurrentWeapon",
       "symbol": "var_currentweapon"
     },
@@ -195,6 +190,11 @@
       "id": "c9e59288-61e2-4a54-b847-11caf06fdf7e__L0",
       "name": "HPBat1",
       "symbol": "var_hpbat1"
+    },
+    {
+      "id": "db4c0c7f-db2a-438a-a598-9ba36f81e35f__L0",
+      "name": "Bat1HP",
+      "symbol": "var_bat1hp"
     }
   ]
 }

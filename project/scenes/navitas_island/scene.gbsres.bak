@@ -108,63 +108,122 @@
       "id": "9bf215ae-eaf6-4f0d-a58e-abf403c94b56"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_GROUP",
       "args": {
+        "__label": "Weapon Menu",
         "input": [
           "b"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
-              "customEventId": "a5fc5c2e-a9a9-458b-94a5-4d9c8c5989d2"
+              "input": [
+                "b"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
             },
-            "id": "4e172ece-d10c-466e-b93b-a7d7b1883e1b"
-          }
-        ]
-      },
-      "id": "31f7bc8d-0aea-40a6-98c1-d6700976da54"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "start"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SCENE_PUSH_STATE",
-            "args": {},
-            "id": "4deed1a6-5b60-48f9-8fdc-ba8f9b9268e6"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512",
+                    "__collapse": true
+                  },
+                  "id": "12b6582f-27bb-4d74-8679-83b4917ba4e0"
+                }
+              ]
+            },
+            "id": "68005ca5-58ac-4519-933c-ede2892225ca"
           },
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_SET_INPUT_SCRIPT",
             "args": {
-              "sceneId": "8f6cd278-2154-4cea-b4a5-f0e91d4402d6",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
             },
-            "id": "30e4682b-3643-4d62-9e92-b5d979c6a6bd"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_COMMENT",
+                  "args": {
+                    "text": "Current Weapon Variable:\n1 = Sword\n2 = Blaster",
+                    "__collapse": true
+                  },
+                  "id": "5637e163-5293-4a2f-8245-925051fa027e"
+                },
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "6",
+                    "items": 2,
+                    "option1": "Sword",
+                    "option2": "Blaster",
+                    "option3": "",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": false,
+                    "layout": "menu",
+                    "cancelOnLastOption": false,
+                    "__collapse": true
+                  },
+                  "id": "ca52e1af-d43a-47c8-8e75-917925f07899"
+                },
+                {
+                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b"
+                    ],
+                    "__collapse": true
+                  },
+                  "id": "f4ea448d-2a56-4bef-851f-d4e762f70757"
+                },
+                {
+                  "command": "EVENT_SET_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b"
+                    ],
+                    "override": true,
+                    "__scriptTabs": "press",
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "a5fc5c2e-a9a9-458b-94a5-4d9c8c5989d2"
+                        },
+                        "id": "4e172ece-d10c-466e-b93b-a7d7b1883e1b"
+                      }
+                    ]
+                  },
+                  "id": "31f7bc8d-0aea-40a6-98c1-d6700976da54"
+                }
+              ]
+            },
+            "id": "e0494375-4458-4e7b-897f-86361d9eb275"
           }
         ]
       },
-      "id": "e0494375-4458-4e7b-897f-86361d9eb275"
+      "id": "827e0af8-ea31-42da-865f-e40f0b607fbf"
     }
   ],
   "playerHit1Script": [],

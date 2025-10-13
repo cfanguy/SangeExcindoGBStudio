@@ -17,21 +17,36 @@
   "y": 32,
   "script": [
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "Sange wakes up\nafter being\nteleported to a\nstrange place. He\nmust find out where\nhe is and get back to\nthe crew of the Nilock.",
-        "x": 1,
-        "y": 1,
-        "location": "background"
-      },
-      "id": "d5953e33-af22-44ab-bf8b-ed583b5a3d86"
-    },
-    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
       "id": "44f65f9f-11dd-4123-a489-4f8e8211bcfe"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\n  Sange wakes up\n    after being\n  teleported. He\n  must find a way\n  to get back to\n     the crew."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 10,
+        "maxHeight": 16,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 10,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8b365579-7644-49d7-b5ce-4e4b1b423cd8"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -42,14 +57,6 @@
         }
       },
       "id": "c546ef3e-5314-43d7-a561-237524a6913b"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 10,
-        "frames": 30
-      },
-      "id": "5828d872-37da-406a-a863-253ef2c8cc6d"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

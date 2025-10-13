@@ -20,43 +20,6 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start"
-        ],
-        "override": true,
-        "__scriptTabs": "press"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SCENE_PUSH_STATE",
-            "args": {},
-            "id": "021e2e57-1c1c-4c0d-9c6a-36d05c08be91"
-          },
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "8f6cd278-2154-4cea-b4a5-f0e91d4402d6",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "37140c46-c09f-498d-b5b8-b40dcf469fb1"
-          }
-        ]
-      },
-      "id": "10a54853-6d8f-4b4d-bfb2-4233caff9951"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
           "b"
         ],
         "override": true,
@@ -68,7 +31,7 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+              "customEventId": "a5fc5c2e-a9a9-458b-94a5-4d9c8c5989d2"
             },
             "id": "ea984872-0c13-4777-8b27-4f4bee835937"
           }
@@ -91,7 +54,7 @@
       "args": {
         "__label": "HUD",
         "__comment": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

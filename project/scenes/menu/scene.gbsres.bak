@@ -19,9 +19,20 @@
     {
       "command": "EVENT_COMMENT",
       "args": {
-        "text": "Current Weapon Variable:\n0 = Sword\n1 = Blaster"
+        "text": "Current Weapon Variable:\n1 = Sword\n2 = Blaster"
       },
       "id": "8d64ec9b-82ed-4565-a7f8-49f18f7f0b9e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "0bd2cac2-7ae0-4ff3-ba85-1afcfcc5b4e6"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",

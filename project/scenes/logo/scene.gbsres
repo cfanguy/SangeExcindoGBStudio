@@ -60,13 +60,13 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "7",
+        "variable": "6",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 1
         }
       },
-      "id": "3bc83d9e-7c66-495d-ae6d-9721158fea1a"
+      "id": "7be461c0-0fda-4474-ae20-09cfda8a2b94"
     }
   ],
   "playerHit1Script": [],

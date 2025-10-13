@@ -75,11 +75,11 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "7"
+                  "value": "6"
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 0
+                  "value": 1
                 }
               },
               "__collapseElse": false,

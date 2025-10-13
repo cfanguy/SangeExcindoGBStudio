@@ -56,28 +56,6 @@
         "fadeSpeed": "2"
       },
       "id": "1bf59d19-30d2-4043-929d-01c3725619ef"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "7",
-        "value": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "3bc83d9e-7c66-495d-ae6d-9721158fea1a"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "5",
-        "value": {
-          "type": "number",
-          "value": 5
-        }
-      },
-      "id": "1f75937f-5b6e-4286-96c2-e5f98f7b3abd"
     }
   ],
   "playerHit1Script": [],

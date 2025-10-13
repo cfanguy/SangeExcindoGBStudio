@@ -10,12 +10,12 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "7",
+        "variable": "6",
         "choices": 2,
         "__collapseCase0": false,
-        "value0": 0,
+        "value0": 1,
         "__collapseCase1": false,
-        "value1": 1,
+        "value1": 2,
         "__collapseCase2": false,
         "value2": 3,
         "__collapseCase3": false,
@@ -80,7 +80,15 @@
         "true13": [],
         "true14": [],
         "true15": [],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+            },
+            "id": "15f66c08-cac4-43cb-aa13-a00e26b37777"
+          }
+        ]
       },
       "id": "ac66328f-1c9a-4c12-be7e-6af0b875e364"
     }
