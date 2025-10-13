@@ -39,12 +39,13 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
-        "speedIn": 1,
-        "speedOut": 1,
+        "speedIn": 0,
+        "speedOut": 0,
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__comment": true
       },
       "id": "8b365579-7644-49d7-b5ce-4e4b1b423cd8"
     },

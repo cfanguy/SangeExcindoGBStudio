@@ -36,7 +36,8 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 2,
-        "frames": 30
+        "frames": 30,
+        "__comment": true
       },
       "id": "b416df03-09ec-4ba3-81f2-365465623559"
     },

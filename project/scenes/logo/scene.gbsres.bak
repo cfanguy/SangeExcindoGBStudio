@@ -56,6 +56,17 @@
         "fadeSpeed": "2"
       },
       "id": "1bf59d19-30d2-4043-929d-01c3725619ef"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "6",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "7be461c0-0fda-4474-ae20-09cfda8a2b94"
     }
   ],
   "playerHit1Script": [],
