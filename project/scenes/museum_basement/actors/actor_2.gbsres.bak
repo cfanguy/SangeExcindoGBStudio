@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I must leave to\nthe East!"
+          "Press Start/Enter\nto switch weapons."
         ],
         "__section": "text",
         "avatarId": "",
@@ -51,12 +51,19 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "0",
+        "variable": "2",
         "value": {
           "type": "true"
         }
       },
       "id": "d113350b-567a-4406-84be-105a83a3eb7b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "923a6a2b-ebea-4c42-beae-2db1fef29ac2"
+      },
+      "id": "3ae9c28a-9fc9-4c5e-bb16-e9daa83d45f8"
     }
   ],
   "startScript": [],

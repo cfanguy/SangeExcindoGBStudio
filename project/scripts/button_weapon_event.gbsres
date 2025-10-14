@@ -52,7 +52,7 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+              "customEventId": "7f6467eb-fa9e-4cca-a974-30d52cd6a9de"
             },
             "id": "7ddef8e9-8e48-481a-9384-c7c818a10d56"
           }
@@ -61,7 +61,7 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "7f6467eb-fa9e-4cca-a974-30d52cd6a9de"
+              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
             },
             "id": "00186e0e-75cd-415c-9e77-075554079a2f"
           }
@@ -84,7 +84,7 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512"
+              "customEventId": "7f6467eb-fa9e-4cca-a974-30d52cd6a9de"
             },
             "id": "15f66c08-cac4-43cb-aa13-a00e26b37777"
           }

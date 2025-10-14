@@ -1,74 +1,73 @@
 {
   "_resourceType": "scene",
-  "id": "300974fe-5310-45c3-8967-0ac6be33a705",
-  "_index": 7,
-  "name": "Intro",
+  "id": "6beb6212-2764-4ee3-83e8-fe1bc67183f4",
+  "_index": 18,
+  "name": "Ending",
   "backgroundId": "deb4002c-8dd5-4f8f-8fb2-8058ff415af2",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "ADVENTURE",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_15",
-  "x": 264,
-  "y": 30,
+  "symbol": "scene_19",
+  "x": 1408,
+  "y": 72,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "44f65f9f-11dd-4123-a489-4f8e8211bcfe"
+      "id": "67f122fa-877e-4427-9063-1a46031d55fd"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "\n  Sange wakes up\n    after being\n  teleported. He\n  must find a way\n  to get back to\n     the crew."
+          "\nSange decides to\nleave with them.\nThis became the\nstart of his many\nadventures aboard\nthe airship Nilock"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 10,
-        "maxHeight": 16,
+        "maxHeight": 10,
         "textX": 1,
         "textY": 1,
-        "textHeight": 10,
+        "textHeight": 14,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
-        "speedIn": 0,
-        "speedOut": 0,
+        "speedIn": -1,
+        "speedOut": -1,
         "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__comment": true,
-        "__collapse": true
+        "closeDelayFrames": 30
       },
-      "id": "8b365579-7644-49d7-b5ce-4e4b1b423cd8"
+      "id": "9cdb5e97-562f-46cc-b76a-a5fbbf45f280"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "3db37dd7-e8c3-447a-8408-431252f3d401",
+        "sceneId": "d102dc81-9c96-4719-a882-729157b319ba",
         "x": {
           "type": "number",
-          "value": 6
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 24
+          "value": 0
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "dc9e1a6b-c8d8-4560-aafd-f4acfdd17716"
+      "id": "3206355a-8a6c-4bbe-99c9-a86be13c4cb4"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "823a49b8-100c-4330-9deb-da26dafd81b6"
 }

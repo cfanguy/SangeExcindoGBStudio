@@ -10,12 +10,20 @@
   "type": "PLATFORM",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "00118+0f50+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 128,
   "y": 392,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "923a6a2b-ebea-4c42-beae-2db1fef29ac2"
+      },
+      "id": "bb2a1a64-437e-4ff7-9144-93632699d642"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

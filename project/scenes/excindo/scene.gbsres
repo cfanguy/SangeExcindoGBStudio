@@ -115,6 +115,13 @@
         "__comment": true
       },
       "id": "fd00615f-deb4-4963-855d-2a91e591bded"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "923a6a2b-ebea-4c42-beae-2db1fef29ac2"
+      },
+      "id": "b21636ad-19d7-4d73-8260-926ae9927290"
     }
   ],
   "playerHit1Script": [],

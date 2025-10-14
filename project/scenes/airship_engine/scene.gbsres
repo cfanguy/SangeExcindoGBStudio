@@ -13,9 +13,50 @@
   "collisions": "0f94+004+0f10+004+0f10+004+0fd+00a+0fa+00a+0fa+00a+0fe+002+0f12+002+0f12+002+0f12+002+0f1d+",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
-  "x": 1208,
-  "y": 416,
-  "script": [],
+  "x": 1152,
+  "y": 496,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Don't Take Out\nYour Weapon Here!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "904586d1-eb4c-4c51-a3a9-600d8f4b6d46"
+          }
+        ]
+      },
+      "id": "0f6e8a9d-cb79-4003-8368-6a1f50b52027"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

@@ -35,8 +35,7 @@
                 {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "customEventId": "2c740728-9171-4e3f-bdc5-bc20969e1512",
-                    "__collapse": true
+                    "customEventId": "a5fc5c2e-a9a9-458b-94a5-4d9c8c5989d2"
                   },
                   "id": "823dee1e-af3f-40a6-b12f-c1a39453b73d"
                 }
@@ -45,81 +44,97 @@
             "id": "c996dd35-9e03-4897-a48b-fa3800b38bc5"
           },
           {
-            "command": "EVENT_SET_INPUT_SCRIPT",
+            "command": "EVENT_IF",
             "args": {
-              "input": [
-                "start"
-              ],
-              "override": true,
-              "__scriptTabs": "press",
-              "__collapse": false
+              "condition": {
+                "type": "variable",
+                "value": "2"
+              },
+              "__collapseElse": true
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_COMMENT",
-                  "args": {
-                    "text": "Current Weapon Variable:\n1 = Sword\n2 = Blaster",
-                    "__collapse": true
-                  },
-                  "id": "cad96169-a214-4997-a520-991274288a82"
-                },
-                {
-                  "command": "EVENT_MENU",
-                  "args": {
-                    "variable": "6",
-                    "items": 2,
-                    "option1": "Sword",
-                    "option2": "Blaster",
-                    "option3": "",
-                    "option4": "",
-                    "option5": "",
-                    "option6": "",
-                    "option7": "",
-                    "option8": "",
-                    "cancelOnB": false,
-                    "layout": "menu",
-                    "cancelOnLastOption": false,
-                    "__collapse": true
-                  },
-                  "id": "b37adebf-f49e-46cb-a1a7-5d8ff635a68d"
-                },
-                {
-                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
-                  "args": {
-                    "input": [
-                      "b"
-                    ],
-                    "__collapse": true
-                  },
-                  "id": "aacb3ec2-c21b-4f26-9367-9f894f31ed7e"
-                },
-                {
                   "command": "EVENT_SET_INPUT_SCRIPT",
                   "args": {
                     "input": [
-                      "b"
+                      "start"
                     ],
                     "override": true,
                     "__scriptTabs": "press",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
                       {
-                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "command": "EVENT_COMMENT",
                         "args": {
-                          "customEventId": "a5fc5c2e-a9a9-458b-94a5-4d9c8c5989d2"
+                          "text": "Current Weapon Variable:\n1 = Sword\n2 = Blaster",
+                          "__collapse": true
                         },
-                        "id": "e9da8584-3b52-48b9-af49-5a8764f3c2be"
+                        "id": "cad96169-a214-4997-a520-991274288a82"
+                      },
+                      {
+                        "command": "EVENT_MENU",
+                        "args": {
+                          "variable": "6",
+                          "items": 2,
+                          "option1": "Blaster",
+                          "option2": "Sword",
+                          "option3": "",
+                          "option4": "",
+                          "option5": "",
+                          "option6": "",
+                          "option7": "",
+                          "option8": "",
+                          "cancelOnB": false,
+                          "layout": "dialogue",
+                          "cancelOnLastOption": false,
+                          "__collapse": false
+                        },
+                        "id": "b37adebf-f49e-46cb-a1a7-5d8ff635a68d"
+                      },
+                      {
+                        "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                        "args": {
+                          "input": [
+                            "b"
+                          ],
+                          "__collapse": false
+                        },
+                        "id": "aacb3ec2-c21b-4f26-9367-9f894f31ed7e"
+                      },
+                      {
+                        "command": "EVENT_SET_INPUT_SCRIPT",
+                        "args": {
+                          "input": [
+                            "b"
+                          ],
+                          "override": true,
+                          "__scriptTabs": "press",
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "a5fc5c2e-a9a9-458b-94a5-4d9c8c5989d2"
+                              },
+                              "id": "e9da8584-3b52-48b9-af49-5a8764f3c2be"
+                            }
+                          ]
+                        },
+                        "id": "7de0fc6b-3d79-4b14-9a24-ffaef3155fc5"
                       }
                     ]
                   },
-                  "id": "7de0fc6b-3d79-4b14-9a24-ffaef3155fc5"
+                  "id": "70de9c80-9952-4c9b-b6ce-362f8736c654"
                 }
-              ]
+              ],
+              "false": []
             },
-            "id": "70de9c80-9952-4c9b-b6ce-362f8736c654"
+            "id": "b6cae937-4918-42b7-b743-06415a080316"
           }
         ]
       },

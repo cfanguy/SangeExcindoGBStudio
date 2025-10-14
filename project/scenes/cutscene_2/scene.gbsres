@@ -13,8 +13,8 @@
   "collisions": "00118+0f50+",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
-  "x": 1008,
-  "y": 240,
+  "x": 952,
+  "y": 320,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -52,5 +52,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "823a49b8-100c-4330-9deb-da26dafd81b6"
+  "playerSpriteSheetId": "f9713d01-9acd-4a16-bc7b-9f21c0e7f6da"
 }
