@@ -37,6 +37,11 @@
       "symbol": "var_currentweapon"
     },
     {
+      "id": "7",
+      "name": "AfterAirship",
+      "symbol": "var_afterairship"
+    },
+    {
       "id": "844635bc-2ad5-46c9-982d-7754e15f6d84__L1",
       "name": "Local 1",
       "symbol": "var_local_1"
@@ -195,11 +200,6 @@
       "id": "db4c0c7f-db2a-438a-a598-9ba36f81e35f__L0",
       "name": "Bat1HP",
       "symbol": "var_bat1hp"
-    },
-    {
-      "id": "7",
-      "name": "AfterAirship",
-      "symbol": "var_afterairship"
     }
   ]
 }

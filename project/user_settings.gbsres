@@ -5,9 +5,9 @@
   "zoom": 100,
   "navigatorSplitSizes": [
     205,
-    30,
     205,
-    342
+    205,
+    167
   ],
   "showNavigator": true,
   "showCollisions": true,
