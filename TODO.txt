@@ -1,4 +1,0 @@
-TODO
-
- - Blaster By Default
- - Add Menu Dialog when Sword is picked up
