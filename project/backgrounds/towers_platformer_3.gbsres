@@ -8,6 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "towers_platformer_3.png",
-  "tileColors": "01f7+043+012+042+016a+",
+  "tileColors": "01168+",
   "autoColor": false
 }

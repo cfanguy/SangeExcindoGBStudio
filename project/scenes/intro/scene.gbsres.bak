@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
-  "x": 288,
-  "y": 32,
+  "x": 264,
+  "y": 30,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -27,7 +27,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "\n  Sange wakes up\n    after being\n  teleported. He\n  must find a way\n  to get back to\n     the crew."
+          "\n  Sange "
         ],
         "__section": "text",
         "avatarId": "",
@@ -45,8 +45,8 @@
         "closeButton": "any",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__comment": true,
-        "__collapse": true
+        "__comment": false,
+        "__collapse": false
       },
       "id": "8b365579-7644-49d7-b5ce-4e4b1b423cd8"
     },

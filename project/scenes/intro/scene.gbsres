@@ -27,14 +27,14 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "\n  Sange wakes up\n    after being\n  teleported. He\n  must find a way\n  to get back to\n     the crew."
+          "Sange must find a\na weapon besides\nhis stun gun and\ntry to escape\nthe city."
         ],
         "__section": "text",
         "avatarId": "",
         "minHeight": 10,
         "maxHeight": 16,
-        "textX": 1,
-        "textY": 1,
+        "textX": 2,
+        "textY": 2,
         "textHeight": 10,
         "position": "bottom",
         "clearPrevious": true,
@@ -45,8 +45,8 @@
         "closeButton": "any",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__comment": true,
-        "__collapse": true
+        "__comment": false,
+        "__collapse": false
       },
       "id": "8b365579-7644-49d7-b5ce-4e4b1b423cd8"
     },
